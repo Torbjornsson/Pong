@@ -6,8 +6,11 @@ namespace Pong.UnitTests
     public class Player_UnitTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void PlayerInitialScore_IsZero()
         {
+            var player = new Player();
+
+            Assert.AreEqual(0, player.Score);
         }
     }
 }
