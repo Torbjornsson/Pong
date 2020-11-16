@@ -6,9 +6,8 @@ namespace Pong
     {
         public Player()
         {
-            
-        }
-        public int Score { get; set; }
 
+        }
+        public int Score { get; private set; }
     }
 }
